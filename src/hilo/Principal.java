@@ -17,11 +17,15 @@ public class Principal {
         /*MostrarCeroUno obj = new MostrarCeroUno();
         obj.mostrarCero();
         obj.mostrarUno();
-*/
+
         MostrarCeroHilo h0 = new MostrarCeroHilo();
         h0.start();
         MostrarUnoHilo h1 = new MostrarUnoHilo();
         h1.start();
+        */
+        Mostrar0Hilo h0 = new Mostrar0Hilo();
+        h0.HiloMostrarCero();
+        Mostrar1Hilo h1 = new Mostrar1Hilo();
+        h1.HiloMostrarUno();
     }
-    
 }
