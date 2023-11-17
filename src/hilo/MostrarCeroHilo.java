@@ -14,7 +14,7 @@ public class MostrarCeroHilo extends Thread {
     public void run(){
         int i;
         for (i=0; i <= 1000; i++){
-            System.out.println("0");
+            System.out.print("0");
         }
     }
 }
